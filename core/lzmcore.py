@@ -897,7 +897,7 @@ def webconn():
 def binploit():
 	print '\n###### Installing Binary Exploitation'
 	os.system('apt update && apt upgrade')
-	os.system('apt install gdb radare2 ired ddrescue bin-utils yasm strace ltrace cdb hexcurse memcached llvmdb')
+	os.system('apt install gdb radare2 ired ddrescue binutils yasm strace ltrace cdb hexcurse memcached llvmdb')
 	print "###### Done"
 	print "###### Tutorial: https://youtu.be/3NTXFUxcKPc"
 	backtomenu_option()
